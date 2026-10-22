@@ -65,9 +65,9 @@ https://raw.githubusercontent.com/fix252/Shadowrocket-ADBlock-Rules-Forever/refs
 
 ## 5、问题排查
 
-- 检查模块启用情况、检查配置文件HTTPS解密开启情况、检查证书信任情况
-  -苹果可能不定期更改与定位相关的域名，确保域名已全部添加至HTTPS解密的域名中，确保域名走Proxy、而不是Direct。
-  -检查DNS解析日志，确认定位域名是否正常解析；检查代理日志，确认定位域名是否走proxy。
+- **检查配置情况：** 检查模块启用情况、检查配置文件HTTPS解密开启情况、检查证书信任情况。
+  - 苹果可能不定期更改与定位相关的域名，确保域名已全部添加至HTTPS解密的域名中，确保域名走Proxy、而不是Direct。
+  - 检查DNS解析日志，确认定位域名是否正常解析；检查代理日志，确认定位域名是否走proxy。
 
 ---
 
