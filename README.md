@@ -40,6 +40,7 @@ https://raw.githubusercontent.com/fix252/Shadowrocket-ADBlock-Rules-Forever/refs
 配置文件 → HTTPS解密 → 证书 → 安装证书 → 安装描述文件（iOS设置 → 通用 → VPN与设备管理 → 配置描述文件 → 安装） → 信任证书（iOS设置 → 通用 → 关于本机 → 证书信任设置 → 信任证书）
 
 **2.3 关闭并重新启用代理，全局路由选择“配置”**
+
 ---
 
 ## 3、快捷指令（推荐，最方便）
@@ -49,7 +50,7 @@ https://raw.githubusercontent.com/fix252/Shadowrocket-ADBlock-Rules-Forever/refs
 - **wloc 设置地理位置**：https://www.icloud.com/shortcuts/a82717d8fdad4e6280866fcf911173f7
 - **wloc 清理恢复位置**：https://www.icloud.com/shortcuts/f42632d406504f24a2cd163af4fe012f
 
-**用法**
+## 4、用法
 
 - **设置位置：** 在地图 App 里选好位置（长按地图选点）→ 共享 → 选「wloc 设置地理位置」→ 关闭定位服务，等待5-10秒开启定位，即可切换。
   - 苹果地图：选点 → 共享 → 「wloc 设置地理位置」
