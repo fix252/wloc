@@ -8,7 +8,7 @@
 
 ---
 
-## 订阅地址
+## 1、模块安装
 
 **Surge:**
 https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/modules/wloc.sgmodule
@@ -27,10 +27,22 @@ https://raw.githubusercontent.com/fix252/wloc/refs/heads/main/modules/wloc.modul
 
 > Egern 可直接使用 Surge 模块
 > Stash 请直接订阅上面的 `.stoverride`，无需用 Script Hub 转换
+> 启用模块
 
 ---
 
-## 快捷指令（推荐，最方便）
+## 2、配置HTTPS解密
+
+**2.1 下载配置文件：**
+https://raw.githubusercontent.com/fix252/Shadowrocket-ADBlock-Rules-Forever/refs/heads/release/sr_top500_banlist_ad_new.conf
+
+**2.2 安装证书**
+配置文件 → HTTPS解密 → 证书 → 安装证书 → 安装描述文件（iOS设置 → 通用 → VPN与设备管理 → 配置描述文件 → 安装） → 信任证书（iOS设置 → 通用 → 关于本机 → 证书信任设置 → 信任证书）
+
+**2.3 关闭并重新启用代理，全局路由选择“配置”**
+---
+
+## 3、快捷指令（推荐，最方便）
 
 直接用快捷指令切换 / 清除定位，无需打开选点页面：
 
@@ -39,10 +51,10 @@ https://raw.githubusercontent.com/fix252/wloc/refs/heads/main/modules/wloc.modul
 
 **用法**
 
-- **设置位置：** 在地图 App 里选好位置（长按地图选点）→ 共享 → 选「wloc 设置地理位置」即可切换。
+- **设置位置：** 在地图 App 里选好位置（长按地图选点）→ 共享 → 选「wloc 设置地理位置」→ 关闭定位服务，等待5-10秒开启定位，即可切换。
   - 苹果地图：选点 → 共享 → 「wloc 设置地理位置」
   - 高德地图：选点 → 分享 → **更多** → 「wloc 设置地理位置」
-- **清理位置：** 点「wloc 清理恢复位置」即可恢复真实定位。
+- **清理位置：** 点「wloc 清理恢复位置」→ 关闭定位服务，等待5-10秒开启定位，即可恢复真实定位。
 
 支持苹果地图、高德（含短链，自动跟跳转 + GCJ-02→WGS84 坐标换算）。
 
