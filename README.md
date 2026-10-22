@@ -36,7 +36,7 @@ https://raw.githubusercontent.com/fix252/wloc/refs/heads/main/modules/wloc.modul
 **2.1 下载配置文件：**
 https://raw.githubusercontent.com/fix252/Shadowrocket-ADBlock-Rules-Forever/refs/heads/release/sr_top500_banlist_ad_new.conf
 
-**2.2 安装证书**
+**2.2 安装证书：**
 配置文件 → HTTPS解密 → 证书 → 安装证书 → 安装描述文件（iOS设置 → 通用 → VPN与设备管理 → 配置描述文件 → 安装） → 信任证书（iOS设置 → 通用 → 关于本机 → 证书信任设置 → 信任证书）
 
 **2.3 关闭并重新启用代理，全局路由选择“配置”**
@@ -60,6 +60,14 @@ https://raw.githubusercontent.com/fix252/Shadowrocket-ADBlock-Rules-Forever/refs
 支持苹果地图、高德（含短链，自动跟跳转 + GCJ-02→WGS84 坐标换算）。
 
 > 前提：代理已开 + 模块已启用 + 信任 `gs-loc.apple.com`。选点页面（Worker / Pages）方案仍保留，见下方。
+
+---
+
+## 5、问题排查
+
+- 检查模块启用情况、检查配置文件HTTPS解密开启情况、检查证书信任情况
+  -苹果可能不定期更改与定位相关的域名，确保域名已全部添加至HTTPS解密的域名中，确保域名走Proxy、而不是Direct。
+  -检查DNS解析日志，确认定位域名是否正常解析；检查代理日志，确认定位域名是否走proxy。
 
 ---
 
